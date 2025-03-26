@@ -1,0 +1,107 @@
+/* FONDO OSCURO Y TEXTO BLANCO */
+body {
+    background-color: #121212; /* Negro suave */
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(90deg, #ff5722, #ff9800); /* Degradado naranja */
+    padding: 12px 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+    color: white !important;
+    margin-right: 15px;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #121212 !important;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Contenedor principal */
+.container {
+    background: #1e1e1e; /* Gris oscuro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    margin-top: 20px;
+}
+
+/* Estilo de los inputs */
+.form-control {
+    background-color: #222;
+    color: white;
+    border: 1px solid #555;
+}
+
+.form-control:focus {
+    background-color: #2a2a2a;
+    color: white;
+    border-color: #f39c12;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #f39c12;
+    border-color: #f39c12;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #d98207;
+}
+
+.btn-secondary {
+    background-color: #444;
+    border-color: #444;
+}
+
+.btn-secondary:hover {
+    background-color: #666;
+}
+
+/* Imágenes */
+.img-thumbnail {
+    border-radius: 8px;
+    max-width: 200px;
+}
+
+
+.footer {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); /* Cambia el borde del botón */
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); /* Hace el icono de hamburguesa más claro */
+}
+

@@ -1,0 +1,293 @@
+CRITICAL - 2025-03-26 02:50:11 --> CodeIgniter\HTTP\Exceptions\HTTPException: CURL must be enabled to use the CURLRequest class.
+[Method: GET, Route: spacex-rockets]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 116.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(116): CodeIgniter\HTTP\Exceptions\HTTPException::forMissingCurl()
+ 2 SYSTEMPATH\Config\Services.php(213): CodeIgniter\HTTP\CURLRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\URI), Object(CodeIgniter\HTTP\Response), [])
+ 3 SYSTEMPATH\Config\BaseService.php(312): CodeIgniter\Config\Services::curlrequest([], Object(CodeIgniter\HTTP\Response), Object(Config\App), false)
+ 4 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('curlrequest', [...])
+ 5 SYSTEMPATH\Config\Services.php(206): CodeIgniter\Config\BaseService::getSharedInstance('curlrequest', [], null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::curlrequest()
+ 7 APPPATH\Controllers\RocketController.php(38): CodeIgniter\Config\BaseService::__callStatic('curlrequest', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RocketController->getSpaceXRockets()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RocketController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 02:50:20 --> CodeIgniter\HTTP\Exceptions\HTTPException: CURL must be enabled to use the CURLRequest class.
+[Method: GET, Route: spacex-rockets]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 116.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(116): CodeIgniter\HTTP\Exceptions\HTTPException::forMissingCurl()
+ 2 SYSTEMPATH\Config\Services.php(213): CodeIgniter\HTTP\CURLRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\URI), Object(CodeIgniter\HTTP\Response), [])
+ 3 SYSTEMPATH\Config\BaseService.php(312): CodeIgniter\Config\Services::curlrequest([], Object(CodeIgniter\HTTP\Response), Object(Config\App), false)
+ 4 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('curlrequest', [...])
+ 5 SYSTEMPATH\Config\Services.php(206): CodeIgniter\Config\BaseService::getSharedInstance('curlrequest', [], null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::curlrequest()
+ 7 APPPATH\Controllers\RocketController.php(38): CodeIgniter\Config\BaseService::__callStatic('curlrequest', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RocketController->getSpaceXRockets()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RocketController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 02:50:21 --> CodeIgniter\HTTP\Exceptions\HTTPException: CURL must be enabled to use the CURLRequest class.
+[Method: GET, Route: spacex-rockets]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 116.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(116): CodeIgniter\HTTP\Exceptions\HTTPException::forMissingCurl()
+ 2 SYSTEMPATH\Config\Services.php(213): CodeIgniter\HTTP\CURLRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\URI), Object(CodeIgniter\HTTP\Response), [])
+ 3 SYSTEMPATH\Config\BaseService.php(312): CodeIgniter\Config\Services::curlrequest([], Object(CodeIgniter\HTTP\Response), Object(Config\App), false)
+ 4 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('curlrequest', [...])
+ 5 SYSTEMPATH\Config\Services.php(206): CodeIgniter\Config\BaseService::getSharedInstance('curlrequest', [], null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::curlrequest()
+ 7 APPPATH\Controllers\RocketController.php(38): CodeIgniter\Config\BaseService::__callStatic('curlrequest', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RocketController->getSpaceXRockets()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RocketController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 02:54:53 --> CodeIgniter\HTTP\Exceptions\HTTPException: CURL must be enabled to use the CURLRequest class.
+[Method: GET, Route: spacex-rockets]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 116.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(116): CodeIgniter\HTTP\Exceptions\HTTPException::forMissingCurl()
+ 2 SYSTEMPATH\Config\Services.php(213): CodeIgniter\HTTP\CURLRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\URI), Object(CodeIgniter\HTTP\Response), [])
+ 3 SYSTEMPATH\Config\BaseService.php(312): CodeIgniter\Config\Services::curlrequest([], Object(CodeIgniter\HTTP\Response), Object(Config\App), false)
+ 4 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('curlrequest', [...])
+ 5 SYSTEMPATH\Config\Services.php(206): CodeIgniter\Config\BaseService::getSharedInstance('curlrequest', [], null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::curlrequest()
+ 7 APPPATH\Controllers\RocketController.php(38): CodeIgniter\Config\BaseService::__callStatic('curlrequest', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RocketController->getSpaceXRockets()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RocketController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 03:00:02 --> CodeIgniter\HTTP\Exceptions\HTTPException: CURL must be enabled to use the CURLRequest class.
+[Method: GET, Route: spacex-rockets]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 116.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(116): CodeIgniter\HTTP\Exceptions\HTTPException::forMissingCurl()
+ 2 SYSTEMPATH\Config\Services.php(213): CodeIgniter\HTTP\CURLRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\URI), Object(CodeIgniter\HTTP\Response), [])
+ 3 SYSTEMPATH\Config\BaseService.php(312): CodeIgniter\Config\Services::curlrequest([], Object(CodeIgniter\HTTP\Response), Object(Config\App), false)
+ 4 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('curlrequest', [...])
+ 5 SYSTEMPATH\Config\Services.php(206): CodeIgniter\Config\BaseService::getSharedInstance('curlrequest', [], null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::curlrequest()
+ 7 APPPATH\Controllers\RocketController.php(38): CodeIgniter\Config\BaseService::__callStatic('curlrequest', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RocketController->getSpaceXRockets()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RocketController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 03:00:08 --> CodeIgniter\HTTP\Exceptions\HTTPException: CURL must be enabled to use the CURLRequest class.
+[Method: GET, Route: spacex-rockets]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 116.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(116): CodeIgniter\HTTP\Exceptions\HTTPException::forMissingCurl()
+ 2 SYSTEMPATH\Config\Services.php(213): CodeIgniter\HTTP\CURLRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\URI), Object(CodeIgniter\HTTP\Response), [])
+ 3 SYSTEMPATH\Config\BaseService.php(312): CodeIgniter\Config\Services::curlrequest([], Object(CodeIgniter\HTTP\Response), Object(Config\App), false)
+ 4 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('curlrequest', [...])
+ 5 SYSTEMPATH\Config\Services.php(206): CodeIgniter\Config\BaseService::getSharedInstance('curlrequest', [], null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::curlrequest()
+ 7 APPPATH\Controllers\RocketController.php(38): CodeIgniter\Config\BaseService::__callStatic('curlrequest', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RocketController->getSpaceXRockets()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RocketController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 03:08:00 --> CodeIgniter\HTTP\Exceptions\HTTPException: CURL must be enabled to use the CURLRequest class.
+[Method: GET, Route: spacex-rockets]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 116.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(116): CodeIgniter\HTTP\Exceptions\HTTPException::forMissingCurl()
+ 2 SYSTEMPATH\Config\Services.php(213): CodeIgniter\HTTP\CURLRequest->__construct(Object(Config\App), Object(CodeIgniter\HTTP\URI), Object(CodeIgniter\HTTP\Response), [])
+ 3 SYSTEMPATH\Config\BaseService.php(312): CodeIgniter\Config\Services::curlrequest([], Object(CodeIgniter\HTTP\Response), Object(Config\App), false)
+ 4 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('curlrequest', [...])
+ 5 SYSTEMPATH\Config\Services.php(206): CodeIgniter\Config\BaseService::getSharedInstance('curlrequest', [], null, null)
+ 6 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::curlrequest()
+ 7 APPPATH\Controllers\RocketController.php(38): CodeIgniter\Config\BaseService::__callStatic('curlrequest', [])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RocketController->getSpaceXRockets()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RocketController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-26 06:02:37 --> mysqli_sql_exception: Table 'codeigniter_db.rockets' doesn't exist in engine in C:\xampp\htdocs\demo-codeigniter-jorgecock\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\demo-codeigniter-jorgecock\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\demo-codeigniter-jorgecock\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\demo-codeigniter-jorgecock\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\demo-codeigniter-jorgecock\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\demo-codeigniter-jorgecock\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\demo-codeigniter-jorgecock\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\demo-codeigniter-jorgecock\app\Controllers\RocketController.php(14): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\demo-codeigniter-jorgecock\system\CodeIgniter.php(933): App\Controllers\RocketController->index()
+#8 C:\xampp\htdocs\demo-codeigniter-jorgecock\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RocketController))
+#9 C:\xampp\htdocs\demo-codeigniter-jorgecock\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\demo-codeigniter-jorgecock\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\demo-codeigniter-jorgecock\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\demo-codeigniter-jorgecock\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2025-03-26 06:02:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'codeigniter_db.rockets' doesn't exist in engine
+[Method: GET, Route: rockets]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `rockets`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\RocketController.php(14): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RocketController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RocketController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 06:02:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'codeigniter_db.rockets' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `rockets`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `rockets`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `rockets`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\RocketController.php(14): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RocketController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RocketController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 06:02:37 --> [Caused by] mysqli_sql_exception: Table 'codeigniter_db.rockets' doesn't exist in engine
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `rockets`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `rockets`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `rockets`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `rockets`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\RocketController.php(14): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RocketController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RocketController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 16:34:19 --> ErrorException: unlink(C:\xampp\htdocs\demo-codeigniter-jorgecock\writable\debugbar/debugbar_1743004534.356276.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\demo-codeigniter-jorgecock\\writable\\debugbar/debugbar_1743004534.356276.json): No such file or directory', 'C:\\xampp\\htdocs\\demo-codeigniter-jorgecock\\system\\Debug\\Toolbar\\Collectors\\History.php', 82)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): unlink('C:\\xampp\\htdocs\\demo-codeigniter-jorgecock\\writable\\debugbar/debugbar_1743004534.356276.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(517): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1743006834.948204', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(496): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(339): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-26 17:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-26 17:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-26 17:10:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: rockets/edit/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('rockets/edit', [], true)
+ 4 APPPATH\Controllers\RocketController.php(100): view('rockets/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RocketController->edit('3')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RocketController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 17:11:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: rockets/edit/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('rockets/edit', [], true)
+ 4 APPPATH\Controllers\RocketController.php(100): view('rockets/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RocketController->edit('3')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RocketController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 17:12:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: rockets/edit/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('rockets/edit', [], true)
+ 4 APPPATH\Controllers\RocketController.php(100): view('rockets/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RocketController->edit('3')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RocketController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 17:29:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: rockets/edit/3]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('rockets/edit', [], true)
+ 4 APPPATH\Controllers\RocketController.php(100): view('rockets/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RocketController->edit('3')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RocketController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 17:31:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: rockets/edit/4]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('rockets/edit', [], true)
+ 4 APPPATH\Controllers\RocketController.php(100): view('rockets/edit', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RocketController->edit('4')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RocketController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-26 17:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-03-26 18:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-26 18:34:37 --> CodeIgniter\HTTP\Exceptions\HTTPException: 35 : Recv failure: Connection was reset
+[Method: GET, Route: rockets/spacex]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 709.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('35', 'Recv failure: Connection was reset')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://api.spacexdata.com/v4/rockets')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(187): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://api.spacexdata.com/v4/rockets', [])
+ 5 APPPATH\Controllers\RocketController.php(53): CodeIgniter\HTTP\CURLRequest->get('https://api.spacexdata.com/v4/rockets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RocketController->getSpaceXRockets()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RocketController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-03-26 19:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-03-26 20:56:20 --> CodeIgniter\HTTP\Exceptions\HTTPException: 6 : Could not resolve host: api.spacexdata.com
+[Method: GET, Route: rockets/spacex]
+in SYSTEMPATH\HTTP\CURLRequest.php on line 709.
+ 1 SYSTEMPATH\HTTP\CURLRequest.php(709): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError('6', 'Could not resolve host: api.spacexdata.com')
+ 2 SYSTEMPATH\HTTP\CURLRequest.php(383): CodeIgniter\HTTP\CURLRequest->sendRequest([...])
+ 3 SYSTEMPATH\HTTP\CURLRequest.php(152): CodeIgniter\HTTP\CURLRequest->send('GET', 'https://api.spacexdata.com/v4/rockets')
+ 4 SYSTEMPATH\HTTP\CURLRequest.php(187): CodeIgniter\HTTP\CURLRequest->request('GET', 'https://api.spacexdata.com/v4/rockets', [])
+ 5 APPPATH\Controllers\RocketController.php(53): CodeIgniter\HTTP\CURLRequest->get('https://api.spacexdata.com/v4/rockets')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\RocketController->getSpaceXRockets()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RocketController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-26 21:25:49 --> ErrorException: Maximum execution time of 120 seconds exceeded
+[Method: GET, Route: rockets/edit/3]
+in SYSTEMPATH\HTTP\URI.php on line 718.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
