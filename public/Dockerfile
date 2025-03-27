@@ -1,17 +1,22 @@
-# Usa una imagen oficial de PHP con Apache
+# Usa una imagen base con Apache y PHP
 FROM php:8.1-apache
 
-# Habilitar mod_rewrite para que CodeIgniter funcione bien
-RUN a2enmod rewrite
+# Configura el directorio de trabajo
+WORKDIR /var/www/html
 
-# Copiar todo el proyecto (un nivel arriba, ya que Dockerfile está en public/)
-COPY ../ /var/www/html/
+# Copia el código fuente al contenedor
+COPY . .
 
-# Establecer permisos adecuados
-RUN chown -R www-data:www-data /var/www/html && chmod -R 755 /var/www/html
+# Muestra los archivos copiados en los logs de Render
+RUN echo "Archivos copiados:" && ls -lah /var/www/html/
 
-# Exponer el puerto 80
+# Instala Composer y las dependencias si usas PHP con Composer
+RUN apt-get update && apt-get install -y unzip git && \
+    curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer && \
+    composer install --no-dev --optimize-autoloader
+
+# Expone el puerto 80
 EXPOSE 80
 
-# Iniciar Apache cuando el contenedor arranque
+# Inicia Apache en primer plano
 CMD ["apache2-foreground"]
