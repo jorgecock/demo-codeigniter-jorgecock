@@ -9,11 +9,11 @@ COPY composer.json composer.lock ./
 RUN COMPOSER_MEMORY_LIMIT=-1 composer install --no-dev --optimize-autoloader --no-interaction --prefer-dist || true
 
 # Segunda etapa: Servidor PHP con Apache
-FROM php:8.1-cli  # Usamos CLI para reducir consumo de memoria
+FROM php:8.1-apache AS runtime  # Corregimos la sintaxis de FROM
 WORKDIR /var/www/html
 
-# Instalamos Apache manualmente
-RUN apt-get update && apt-get install -y apache2 libapache2-mod-php \
+# Instalamos paquetes adicionales si es necesario
+RUN apt-get update && apt-get install -y unzip git \
     && rm -rf /var/lib/apt/lists/*
 
 # Copiamos el código fuente
@@ -30,4 +30,4 @@ RUN chown -R www-data:www-data /var/www/html \
 EXPOSE 80
 
 # Iniciamos Apache en primer plano
-CMD ["apachectl", "-D", "FOREGROUND"]
+CMD ["apache2-foreground"]
