@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Copiamos solo lo necesario para instalar dependencias
 COPY composer.json composer.lock ./
-RUN composer install --no-dev --optimize-autoloader --no-interaction --prefer-dist
+RUN COMPOSER_MEMORY_LIMIT=-1 composer install --no-dev --optimize-autoloader --no-interaction --prefer-dist
 
 # Segunda etapa: Servidor PHP con Apache
 FROM php:8.1-apache
@@ -15,6 +15,9 @@ COPY . .
 
 # Copiamos las dependencias ya instaladas
 COPY --from=build /app/vendor ./vendor
+
+# Ajustamos permisos para evitar problemas en Render
+RUN chmod -R 777 /var/www/html/vendor /var/www/html/composer.lock || true
 
 # Expone el puerto 80
 EXPOSE 80
