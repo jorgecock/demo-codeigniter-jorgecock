@@ -14,11 +14,17 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 # Copia el código fuente al contenedor
 COPY . .
 
-# Instala las dependencias de PHP con Composer
-RUN composer install --no-dev --optimize-autoloader
+# Verifica que composer.json se haya copiado
+RUN ls -lah /var/www/html/ && cat /var/www/html/composer.json || echo "composer.json NO encontrado"
 
-# Lista los archivos después de copiarlos
-RUN echo "Archivos copiados:" && ls -lah /var/www/html/
+# Cambia permisos para evitar errores de permisos
+RUN chown -R www-data:www-data /var/www/html && chmod -R 775 /var/www/html
+
+# Instala extensiones de PHP necesarias
+RUN docker-php-ext-install pdo pdo_mysql
+
+# Instala las dependencias de PHP con Composer
+RUN composer install --no-dev --optimize-autoloader --no-interaction --prefer-dist
 
 # Expone el puerto 80
 EXPOSE 80
