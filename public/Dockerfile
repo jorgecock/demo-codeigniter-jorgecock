@@ -1,5 +1,5 @@
 # Primera etapa: Instalamos las dependencias con Composer
-FROM composer:2 AS build
+FROM composer:2
 WORKDIR /app
 
 # Copiamos los archivos necesarios para instalar dependencias
@@ -9,7 +9,7 @@ COPY composer.json composer.lock ./
 RUN COMPOSER_MEMORY_LIMIT=-1 composer install --no-dev --optimize-autoloader --no-interaction --prefer-dist || true
 
 # Segunda etapa: Servidor PHP con Apache
-FROM php:8.1-apache AS runtime  # Corregimos la sintaxis de FROM
+FROM php:8.1-apache
 WORKDIR /var/www/html
 
 # Instalamos paquetes adicionales si es necesario
@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y unzip git \
 COPY . .
 
 # Copiamos las dependencias instaladas
-COPY --from=build /app/vendor ./vendor
+COPY --from=0 /app/vendor ./vendor  # Usamos índice en lugar de alias en multi-stage build
 
 # Damos permisos adecuados
 RUN chown -R www-data:www-data /var/www/html \
